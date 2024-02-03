@@ -11,7 +11,7 @@ export default function Home(props) {
   return (
     <div>
       <Head>
-        <title>LIFF Starter</title>
+        <title>ศูนย์ดำรงธรรม จังหวัดฉะเชิงเทรา</title>
       </Head>
       <div className="home">
         <h1 className="home__title">
@@ -31,7 +31,7 @@ export default function Home(props) {
             rel="noreferrer"
             className="home__buttons__button button--primary"
           >
-            LIFF Documentation
+            แจ้งเรื่องร้องเรียน
           </a>
           <a
             href="https://liff-playground.netlify.app/"
@@ -39,7 +39,7 @@ export default function Home(props) {
             rel="noreferrer"
             className="home__buttons__button button--tertiary"
           >
-            LIFF Playground
+            ตรวจสอบสถานะ
           </a>
           <a
             href="https://developers.line.biz/console/"
@@ -47,7 +47,7 @@ export default function Home(props) {
             rel="noreferrer"
             className="home__buttons__button button--secondary"
           >
-            LINE Developers Console
+            ติดต่อเจ้าหน้าที่
           </a>
         </div>
       </div>
