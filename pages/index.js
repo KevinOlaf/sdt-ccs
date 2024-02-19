@@ -1,6 +1,7 @@
 import Head from "next/head";
 import packageJson from "../package.json";
-
+import liff from '@line/liff';
+import Micro from "./micro";
 export default function Home(props) {
   /** You can access to liff and liffError object through the props.
    *  const { liff, liffError } = props;
@@ -42,7 +43,7 @@ export default function Home(props) {
             ตรวจสอบสถานะ
           </a>
           <a
-            href="https://developers.line.biz/console/"
+            href="https://google.com"
             target="_blank"
             rel="noreferrer"
             className="home__buttons__button button--secondary"
